@@ -2,6 +2,7 @@ body {
   background-color: beige;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px 450px 10px 450px;
 }
 .name {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -9,8 +10,9 @@ body {
 .columna-derecha {
   float: right;
   padding: 50px;
+  background-color: beige;
 }
 .columna-izquierda {
-  float: left;
-  padding: 50px;
+  background-color: black;
+  color: beige;
 }

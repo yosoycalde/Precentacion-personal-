@@ -6,13 +6,37 @@ body {
 }
 .name {
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+.information {
+  font-size: 16px;
+}
+.sobre-mi {
+  font-size: 16px;
+}
+.educacion {
+  font-size: 16px;
+}
+.habilidades {
+  font-size: 16px;
+}
+.idiomas {
+  font-size: 16px;
 }
 .columna-derecha {
   float: right;
-  padding: 50px;
+  padding: 30px;
   background-color: beige;
 }
+.imagen {
+  margin: 170px 50px 50px 170px;
+}
 .columna-izquierda {
+  padding: 50px;
   background-color: black;
   color: beige;
+  margin: 80px 50px;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 12px;
 }

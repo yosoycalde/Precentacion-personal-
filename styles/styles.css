@@ -1,12 +1,12 @@
 body {
-  background-color: white;
+  background-color: gray;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 10px 450px 10px 450px;
 }
 .name {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .information {
   font-size: 16px;
@@ -25,7 +25,7 @@ body {
 }
 .columna-derecha {
   float: right;
-  padding: 30px;
+  padding: 20px;
   background-color: white;
 }
 .imagen {
@@ -33,11 +33,12 @@ body {
   height: 270px;
 }
 .columna-izquierda {
-  padding: 50px;
   background-color: black;
   color: white;
   margin: 80px 50px;
   padding: 20px;
-  margin-top: 50px;
   font-size: 12px;
+}
+.columnas {
+  background-color: white;
 }

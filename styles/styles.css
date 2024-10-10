@@ -1,8 +1,8 @@
 body {
-  background-color: gray;
+  background-color: rgb(186, 183, 183);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 10px 450px 10px 450px;
+  margin: 0px 450px 0px 450px;
 }
 .name {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -41,4 +41,9 @@ body {
 }
 .columnas {
   background-color: white;
+}
+.link,
+a {
+  color: white;
+  font-size: 16px;
 }

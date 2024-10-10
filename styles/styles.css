@@ -1,10 +1,16 @@
 body {
-  background-color: white;
+  background-color: beige;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .name {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.information {
+.columna-derecha {
+  float: right;
+  padding: 50px;
+}
+.columna-izquierda {
+  float: left;
+  padding: 50px;
 }

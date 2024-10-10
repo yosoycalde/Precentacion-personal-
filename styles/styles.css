@@ -29,7 +29,8 @@ body {
   background-color: beige;
 }
 .imagen {
-  margin: 170px 50px 50px 170px;
+  width: 220px;
+  height: 270px;
 }
 .columna-izquierda {
   padding: 50px;

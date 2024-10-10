@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 10px 450px 10px 450px;
@@ -26,7 +26,7 @@ body {
 .columna-derecha {
   float: right;
   padding: 30px;
-  background-color: beige;
+  background-color: white;
 }
 .imagen {
   width: 220px;
@@ -35,7 +35,7 @@ body {
 .columna-izquierda {
   padding: 50px;
   background-color: black;
-  color: beige;
+  color: white;
   margin: 80px 50px;
   padding: 20px;
   margin-top: 50px;

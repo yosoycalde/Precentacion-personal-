@@ -33,6 +33,7 @@ body {
 .imagen {
   width: 220px;
   height: 270px;
+  border-radius: 25px;
 }
 .columna-izquierda {
   background-color: black;

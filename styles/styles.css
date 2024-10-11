@@ -28,12 +28,13 @@ body {
   padding: 12px;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 20px 30px 20px;
 }
 .imagen {
   width: 220px;
   height: 270px;
   border-radius: 25px;
+  display: flex;
+  align-items: center;
 }
 .columna-izquierda {
   background-color: black;
@@ -45,6 +46,7 @@ body {
 .columnas {
   background-color: black;
   border-radius: 20px;
+  box-shadow: 20px 30px 20px;
 }
 .link,
 a {

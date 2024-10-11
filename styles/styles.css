@@ -25,8 +25,10 @@ body {
 }
 .columna-derecha {
   float: right;
-  padding: 20px;
+  padding: 12px;
   background-color: white;
+  border-radius: 20px;
+  box-shadow: 20px 30px 20px;
 }
 .imagen {
   width: 220px;
@@ -40,7 +42,8 @@ body {
   font-size: 12px;
 }
 .columnas {
-  background-color: white;
+  background-color: black;
+  border-radius: 20px;
 }
 .link,
 a {
@@ -48,5 +51,5 @@ a {
   font-size: 16px;
 }
 .futuros-proyectos{
-  font-size: 16px;
+  font-size: 14.5px;
 }

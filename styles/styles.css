@@ -58,3 +58,152 @@ a {
 .futuros-proyectos{
   font-size: 14.5px;
 }
+
+/* Reset y estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste para centrar completamente */
+}
+
+/* Contenedor principal */
+.cv-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 90%;
+}
+
+/* Columna izquierda (Foto y contacto) */
+.columna-izquierda {
+    background-color: #002b47;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Contacto y referencias */
+.contacto, .referencias, .link, .futuros-proyectos {
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contacto h4, .referencias h3, .link h3, .futuros-proyectos h3 {
+    font-size: 1.2em;
+    border-bottom: 2px solid #80ced6;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Enlaces */
+.contacto a, .link a {
+    color: #80ced6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto a:hover, .link a:hover {
+    text-decoration: underline;
+}
+
+/* Columna derecha (Información personal y experiencia) */
+.columna-derecha {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 2;
+    max-width: 600px;
+}
+
+.name h1 {
+    font-size: 1.8em;
+    color: #002b47;
+    text-align: center;
+}
+
+.information h3, .sobre-mi h3, .educacion h3, .habilidades h3, .idiomas h3 {
+    font-size: 1.2em;
+    color: #707070;
+    border-bottom: 2px solid #c3c3c3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilos para habilidades e idiomas */
+.habilidades p, .idiomas p {
+    text-align: center;
+}
+
+/* Líneas separadoras */
+hr {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin: 10px 0;
+}
+
+/* Diseño responsivo */
+@media screen and (max-width: 768px) {
+    .cv-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .columna-izquierda, .columna-derecha {
+        max-width: 100%;
+        width: 90%;
+    }
+
+    .imagen {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .name h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .information h3, .contacto h4, .referencias h3, .link h3, .futuros-proyectos h3 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .contacto, .referencias, .link, .futuros-proyectos {
+        text-align: center;
+    }
+}
+
+
+
+
+

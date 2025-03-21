@@ -1,209 +1,241 @@
-body {
-  background-color: rgb(186, 183, 183);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 0px 450px 0px 450px;
-}
-.name {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-}
-.information {
-  font-size: 16px;
-}
-.sobre-mi {
-  font-size: 16px;
-}
-.educacion {
-  font-size: 16px;
-}
-.habilidades {
-  font-size: 16px;
-}
-.idiomas {
-  font-size: 16px;
-}
-.columna-derecha {
-  float: right;
-  padding: 12px;
-  background-color: white;
-  border-radius: 20px;
-}
-.imagen {
-  width: 220px;
-  height: 270px;
-  border-radius: 25px;
-  display: flex;
-  align-items: center;
-  box-shadow: white ;
-  box-shadow: 3px 2px 3px;
-}
-.columna-izquierda {
-  background-color: black;
-  color: white;
-  margin: 80px 50px;
-  padding: 20px;
-  font-size: 12px;
-}
-.columnas {
-  background-color: black;
-  border-radius: 20px;
-  box-shadow: 20px 30px 20px;
-}
-.link,
-a {
-  color: white;
-  font-size: 16px;
-}
-.futuros-proyectos{
-  font-size: 14.5px;
-}
-
-/* Reset y estilos generales */
 body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ajuste para centrar completamente */
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(186, 183, 183);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-size: 12px; 
 }
 
-/* Contenedor principal */
+
 .cv-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 900px;
-    width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px; 
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  max-width: 650px; 
+  width: 80%; 
+  margin: 10px auto;
+  transform: scale(0.85); 
 }
 
-/* Columna izquierda (Foto y contacto) */
+
 .columna-izquierda {
-    background-color: #002b47;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    flex: 1;
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #002b47;
+  color: white;
+  padding: 10px; 
+  text-align: center;
+  border-radius: 6px;
+  flex: 1;
+  min-width: 150px; 
+  max-width: 200px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.12);
+  margin: 0;
 }
+
 
 .imagen {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
+  width: 90px; 
+  height: 90px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
-/* Contacto y referencias */
+
 .contacto, .referencias, .link, .futuros-proyectos {
-    text-align: left;
-    margin-top: 20px;
-    width: 100%;
+  text-align: left;
+  margin-top: 10px; 
+  width: 100%;
 }
 
 .contacto h4, .referencias h3, .link h3, .futuros-proyectos h3 {
-    font-size: 1.2em;
-    border-bottom: 2px solid #80ced6;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+  font-size: 0.95em; 
+  border-bottom: 1px solid #80ced6;
+  padding-bottom: 3px; 
+  margin-bottom: 5px; 
 }
 
-/* Enlaces */
 .contacto a, .link a {
-    color: #80ced6;
-    text-decoration: none;
-    font-weight: bold;
+  color: #80ced6;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 2px; 
+  font-size: 0.85em; 
 }
 
-.contacto a:hover, .link a:hover {
-    text-decoration: underline;
-}
 
-/* Columna derecha (Información personal y experiencia) */
 .columna-derecha {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    flex: 2;
-    max-width: 600px;
+  background-color: white;
+  padding: 10px; 
+  border-radius: 6px;
+  flex: 2;
+  max-width: 400px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .name h1 {
-    font-size: 1.8em;
-    color: #002b47;
-    text-align: center;
+  font-size: 1.3em; 
+  color: #002b47;
+  text-align: center;
+  margin: 5px 0 8px 0; 
 }
 
 .information h3, .sobre-mi h3, .educacion h3, .habilidades h3, .idiomas h3 {
-    font-size: 1.2em;
-    color: #707070;
-    border-bottom: 2px solid #c3c3c3;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    text-align: center;
+  font-size: 0.95em; 
+  color: #707070;
+  border-bottom: 1px solid #c3c3c3;
+  padding-bottom: 3px; 
+  margin: 8px 0 5px 0; 
+  text-align: center;
 }
 
-/* Estilos para habilidades e idiomas */
-.habilidades p, .idiomas p {
-    text-align: center;
+
+.information, .sobre-mi, .educacion, .habilidades, .idiomas {
+  margin-bottom: 8px; 
 }
 
-/* Líneas separadoras */
+
+.information p, .sobre-mi p, .educacion p, .habilidades p, .idiomas p {
+  font-size: 0.9em;
+  line-height: 1.2; 
+  margin: 3px 0; 
+}
+
+
 hr {
-    border: none;
-    border-top: 2px solid #ddd;
-    margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 6px 0;
 }
 
-/* Diseño responsivo */
+@media screen and (max-width: 1024px) {
+  .cv-container {
+      width: 78%;
+      max-width: 600px;
+      transform: scale(0.82);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cv-container {
+      width: 85%;
+      padding: 8px;
+      transform: scale(0.8);
+  }
+  
+  .columna-izquierda {
+      min-width: 140px;
+      max-width: 180px;
+  }
+}
 @media screen and (max-width: 768px) {
-    .cv-container {
-        flex-direction: column;
-        align-items: center;
-    }
+  .cv-container {
+      flex-direction: column;
+      align-items: center;
+      width: 75%;
+      transform: scale(0.78);
+      gap: 8px;
+  }
 
-    .columna-izquierda, .columna-derecha {
-        max-width: 100%;
-        width: 90%;
-    }
+  .columna-izquierda, .columna-derecha {
+      max-width: 100%;
+      width: 100%;
+  }
+  
+  .columna-izquierda {
+      margin-bottom: 8px;
+  }
+}
 
-    .imagen {
-        width: 120px;
-        height: 120px;
-    }
+@media screen and (max-width: 600px) {
+  body, html {
+      font-size: 11px;
+  }
+  
+  .cv-container {
+      padding: 8px;
+      margin: 6px;
+      width: 85%;
+      transform: scale(0.75);
+  }
+
+  .columna-izquierda, .columna-derecha {
+      padding: 8px;
+  }
+
+  .name h1 {
+      font-size: 1.2em;
+  }
+  
+  .imagen {
+      width: 80px;
+      height: 80px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .name h1 {
-        font-size: 1.5em;
-        text-align: center;
-    }
+  body, html {
+      font-size: 10px;
+  }
+  
+  .cv-container {
+      padding: 6px;
+      margin: 4px;
+      transform: scale(0.72);
+  }
 
-    .information h3, .contacto h4, .referencias h3, .link h3, .futuros-proyectos h3 {
-        font-size: 1em;
-        text-align: center;
-    }
+  .columna-izquierda, .columna-derecha {
+      padding: 8px;
+  }
 
-    .contacto, .referencias, .link, .futuros-proyectos {
-        text-align: center;
-    }
+  .imagen {
+      width: 70px;
+      height: 70px;
+  }
+  
+  .name h1 {
+      font-size: 1.1em;
+      margin: 4px 0;
+  }
 }
 
+@media screen and (max-width: 320px) {
+  .cv-container {
+      padding: 5px;
+      margin: 3px;
+      transform: scale(0.68);
+  }
 
+  .columna-izquierda, .columna-derecha {
+      padding: 6px;
+  }
 
+  .name h1 {
+      font-size: 1em;
+  }
 
-
+  .imagen {
+      width: 60px;
+      height: 60px;
+  }
+  
+  .information h3, .sobre-mi h3, .educacion h3, .habilidades h3, .idiomas h3 {
+      font-size: 0.9em;
+  }
+}
